@@ -122,23 +122,27 @@ hr{
 .proj .photo{
 	width: 100%;
 	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .first-proj .photo{
-	background-image: url(https://s26.postimg.org/92dzhiyuh/1052.jpg);
+	background-image: url(../img/animal.png);
 }
 
 .second-proj .photo{
-	background-image: url(https://s26.postimg.org/uezhslxjd/sunset-2274512_1920.jpg);
+	background-image: url(../img/pixel.png);
 }
+
 
 .third-proj .photo{
-	background-image: url(https://s26.postimg.org/mm8u0i1t5/pexels-photo-358532.jpg);
+	background-image: url(../img/mem.png);
 }
 
+
 .second-proj{
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
 }
 
 .proj .page{
@@ -161,6 +165,11 @@ hr{
 	font-weight: 100;
 	text-transform: uppercase;
 	margin-bottom: 1%;
+}
+
+.proj p{
+	overflow: hidden;
+	cursor: pointer;
 }
 
 /*FOOTER*/
