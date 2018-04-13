@@ -57,7 +57,7 @@ body{
 	margin-top: 4%;
 	width: 100%;
 	height: 500px;
-	background-image: url(https://s18.postimg.org/7prnw69w9/pexels-photo-92905.jpg);
+	background-image: url(../img/proj.png);
 }
 
 /*HEADER*/
@@ -67,6 +67,10 @@ body{
 	display: flex;
 	flex-direction: row;
 	margin: 5% 0 0;
+}
+
+.header img{
+	background-image: url("../img/fotoPerf.jpg");
 }
 
 hr{
